@@ -63,6 +63,8 @@ It improves application performance by reducing the initial load size and enhanc
 Screenshots:
 
 <img width="1903" height="932" alt="Screenshot 2026-02-14 011505" src="https://github.com/user-attachments/assets/da4240de-9ed7-4e78-8045-f34be7acd29a" />
+<img width="1912" height="844" alt="Screenshot 2026-02-20 110320" src="https://github.com/user-attachments/assets/2ce146da-ea6c-4b4d-b251-efbf1db235fe" />
+
 
 
 
