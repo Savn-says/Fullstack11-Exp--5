@@ -63,7 +63,7 @@ It improves application performance by reducing the initial load size and enhanc
 Screenshots:
 
 <img width="1903" height="932" alt="Screenshot 2026-02-14 011505" src="https://github.com/user-attachments/assets/da4240de-9ed7-4e78-8045-f34be7acd29a" />
-<img width="1909" height="949" alt="Screenshot 2026-02-14 011515" src="https://github.com/user-attachments/assets/e4285bb0-a09f-4395-82d2-a362c175edde" />
+
 
 
 <br>
@@ -129,9 +129,11 @@ Screenshots:
 <img width="1900" height="916" alt="Screenshot 2026-02-13 155337" src="https://github.com/user-attachments/assets/7bbeabd0-eeed-41ce-9424-7c8ea9a81e59" />
 <img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/5f17c3bc-9e0d-4ee7-b390-82ec32fd9d7d" />
 
-<img width="1502" height="588" alt="Screenshot 2026-02-13 155523" src="https://github.com/user-attachments/assets/1472fb89-8985-4f0a-9dd5-8341a6405786" />
-<img width="1911" height="911" alt="Screenshot 2026-02-13 161745" src="https://github.com/user-attachments/assets/403ffa2f-8b34-40a3-bdec-aeecba2441aa" />
-<img width="1917" height="933" alt="Screenshot 2026-02-13 161756" src="https://github.com/user-attachments/assets/61ffbd7e-76eb-48b8-9f65-8b053cabdd66" />
+<img width="1895" height="883" alt="Screenshot 2026-02-20 104429" src="https://github.com/user-attachments/assets/3589a3ff-9245-42d0-b078-37ed1827d137" />
+<img width="1910" height="873" alt="Screenshot 2026-02-20 104719" src="https://github.com/user-attachments/assets/c4ff9f74-31f3-4769-b2f9-261921dd6541" />
+<img width="1914" height="882" alt="Screenshot 2026-02-20 104729" src="https://github.com/user-attachments/assets/355a9540-ad43-40ed-8687-8fb7744fa94b" />
+
+
 
 
 
