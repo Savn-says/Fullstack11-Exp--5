@@ -4,7 +4,6 @@ import './App.css';
 
 const Dashboard = React.lazy(() => import('./Dashboard'));
 const AboutMe = React.lazy(() => import('./AboutMe'));
-const Skills = React.lazy(() => import('./Skills'));
 const Contact = React.lazy(() => import('./Contact'));
 
 const SectionLayout = ({ title, children }) => (
@@ -15,13 +14,10 @@ const SectionLayout = ({ title, children }) => (
 
     <nav className="dashboard-nav">
       <NavLink to="/" className="nav-link">
-        All Sections
+        Home
       </NavLink>
       <NavLink to="/about" className="nav-link">
-        About Me
-      </NavLink>
-      <NavLink to="/skills" className="nav-link">
-        Skills
+        About
       </NavLink>
       <NavLink to="/contact" className="nav-link">
         Contact
@@ -49,19 +45,9 @@ function App() {
         <Route
           path="/about"
           element={
-            <Suspense fallback={<div>Loading About Me...</div>}>
-              <SectionLayout title="About Me">
+            <Suspense fallback={<div>Loading About...</div>}>
+              <SectionLayout title="About">
                 <AboutMe />
-              </SectionLayout>
-            </Suspense>
-          }
-        />
-        <Route
-          path="/skills"
-          element={
-            <Suspense fallback={<div>Loading Skills...</div>}>
-              <SectionLayout title="Skills">
-                <Skills />
               </SectionLayout>
             </Suspense>
           }

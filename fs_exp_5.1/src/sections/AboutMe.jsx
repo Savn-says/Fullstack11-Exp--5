@@ -1,9 +1,9 @@
 import React from 'react'
 
-function AboutMe() {
+function About() {
   return (
     <div className="card">
-      <h2>About Me</h2>
+      <h2>About</h2>
       <p>
         <span className="label">Name:</span> Savmandeep Kaur
       </p>
@@ -14,4 +14,4 @@ function AboutMe() {
   )
 }
 
-export default AboutMe
+export default About

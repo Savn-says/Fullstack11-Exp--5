@@ -5,10 +5,10 @@ A React single-page application that demonstrates **client-side routing** with R
 ## Features
 
 - **React Router (react-router-dom)** – Multiple routes with `BrowserRouter`, `Routes`, `Route`, and `NavLink`
-- **Lazy loading** – Dashboard, About Me, Skills, and Contact are loaded on demand via `React.lazy()` with `Suspense` fallbacks
-- **Dashboard** – Home page (`/`) showing all sections (About Me, Skills, Contact) in one view
-- **Section pages** – Individual routes for `/about`, `/skills`, and `/contact` with a shared layout
-- **Navigation** – Persistent nav bar to switch between “All Sections”, About Me, Skills, and Contact
+- **Lazy loading** – Dashboard, About, and Contact are loaded on demand via `React.lazy()` with `Suspense` fallbacks
+- **Dashboard** – Home page (`/`) showing all sections (About, Contact) in one view
+- **Section pages** – Individual routes for `/about` and `/contact` with a shared layout
+- **Navigation** – Persistent nav bar to switch between Home, About, and Contact
 
 ## Project Structure
 
@@ -22,7 +22,6 @@ fs_exp_5.2/
 │   ├── index.css
 │   ├── Dashboard.js    # Home: all sections in one page
 │   ├── AboutMe.js      # About section content
-│   ├── Skills.js       # Skills section content
 │   ├── Contact.js      # Contact section content
 │   └── ...
 ├── package.json
@@ -31,12 +30,11 @@ fs_exp_5.2/
 
 ## Routes
 
-| Path     | Description                          |
-|----------|--------------------------------------|
-| `/`      | Dashboard – all sections on one page |
-| `/about` | About Me (single section)             |
-| `/skills`| Skills (single section)              |
-| `/contact` | Contact (single section)           |
+| Path      | Description                          |
+|-----------|--------------------------------------|
+| `/`       | Home – all sections on one page      |
+| `/about`  | About (single section)               |
+| `/contact`| Contact (single section)             |
 
 ## Tech Stack
 
@@ -84,7 +82,7 @@ fs_exp_5.2/
 - Using **NavLink** for navigation and active link styling
 - **Code-splitting** with `React.lazy()` so each section loads only when its route is visited
 - **Suspense** for loading fallbacks while lazy components load
-- A **reusable layout** (`SectionLayout`) for section-only pages (About, Skills, Contact)
+- A **reusable layout** (`SectionLayout`) for section-only pages (About, Contact)
 - Structuring a small multi-route SPA with a dashboard and separate section views
 
 ## License

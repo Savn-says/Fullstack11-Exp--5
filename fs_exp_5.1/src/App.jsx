@@ -3,7 +3,6 @@ import './style.css'
 
 const Title = React.lazy(() => import('./components/Title'))
 const AboutMe = React.lazy(() => import('./sections/AboutMe'))
-const Skills = React.lazy(() => import('./sections/Skills'))
 const Contact = React.lazy(() => import('./sections/Contact'))
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
         <Title />
         <div className="cards-row">
           <AboutMe />
-          <Skills />
           <Contact />
         </div>
       </Suspense>

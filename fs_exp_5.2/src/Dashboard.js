@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import AboutMe from './AboutMe';
-import Skills from './Skills';
 import Contact from './Contact';
 
 const Dashboard = () => {
@@ -13,13 +12,10 @@ const Dashboard = () => {
 
       <nav className="dashboard-nav">
         <NavLink to="/" className="nav-link">
-          All Sections
+          Home
         </NavLink>
         <NavLink to="/about" className="nav-link">
-          About Me
-        </NavLink>
-        <NavLink to="/skills" className="nav-link">
-          Skills
+          About
         </NavLink>
         <NavLink to="/contact" className="nav-link">
           Contact
@@ -29,9 +25,6 @@ const Dashboard = () => {
       <main className="dashboard-content">
         <section className="card">
           <AboutMe />
-        </section>
-        <section className="card">
-          <Skills />
         </section>
         <section className="card">
           <Contact />
